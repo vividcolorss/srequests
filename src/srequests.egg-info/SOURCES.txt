@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/srequests/__init__.py
+src/srequests/srequests.py
+src/srequests.egg-info/PKG-INFO
+src/srequests.egg-info/SOURCES.txt
+src/srequests.egg-info/dependency_links.txt
+src/srequests.egg-info/requires.txt
+src/srequests.egg-info/top_level.txt

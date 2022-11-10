@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "srequests"
+version = "0.0.1"
+authors = [
+  { name="89paradox", email="68936a@gmail.com" },
+]
+description = "A package for taking requests from a Scratch project."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GPLv3 License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["scratchattach"]
+[project.urls]
+"Homepage" = "https://github.com/89paradox/srequests"
+"Bug Tracker" = "https://github.com/89paradox/srequests/issues"
