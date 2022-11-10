@@ -10,7 +10,7 @@ To connect to a project, import the library and connect to a project with your c
 ```
 from srequests import srequests
 
-sr = srequests.SRequests("bloxabyte","ws293694","759181792")
+sr = srequests.SRequests("Username","Pass","ProjectID")
 ```
 
 ## Check if request is unanswered.
