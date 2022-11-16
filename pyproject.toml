@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0", "scratchattach"]
 build-backend = "setuptools.build_meta"
 [project]
 name = "srequests"
@@ -15,7 +15,6 @@ classifiers = [
     "License :: OSI Approved :: GPLv3 License",
     "Operating System :: OS Independent",
 ]
-dependencies = ["scratchattach"]
 [project.urls]
 "Homepage" = "https://github.com/89paradox/srequests"
 "Bug Tracker" = "https://github.com/89paradox/srequests/issues"
