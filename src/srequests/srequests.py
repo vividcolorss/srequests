@@ -1,6 +1,5 @@
 import scratchattach as scratch3
 from scratchattach import Encoding
-from time import sleep
 class SRequests():
     def __init__(self,username,password,project_id):
         session = scratch3.login(username, password)
@@ -24,3 +23,9 @@ class SRequests():
         def Respond(response):
             conn.set_var("_REQ_RESPONSE", Encoding.encode(response))
             conn.set_var("_REQ_RESPONDED", "1")
+        class User():
+            def GetData():
+                name = Encoding.decode(conn.get_var("_REQ_USER"))
+                return scratch3.get_user(name)
+            def GetName():
+                return Encoding.decode(conn.get_var("_REQ_USER"))
