@@ -15,6 +15,7 @@ classifiers = [
     "License :: OSI Approved :: GPLv3 License",
     "Operating System :: OS Independent",
 ]
+dependencies = ["scratchattach"]
 [project.urls]
 "Homepage" = "https://github.com/89paradox/srequests"
 "Bug Tracker" = "https://github.com/89paradox/srequests/issues"
