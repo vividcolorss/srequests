@@ -1,6 +1,6 @@
 # srequests
 ## A package for taking requests from a Scratch project.
-
+![](https://img.shields.io/pypi/v/srequests?style=for-the-badge) ![](https://img.shields.io/github/forks/heyimocto/srequests?style=for-the-badge)  ![](https://img.shields.io/github/license/heyimocto/srequests?style=for-the-badge)
 # Documentation
 ## For making a project, open this project and backpack the main sprite: https://scratch.mit.edu/projects/759181792/
 
